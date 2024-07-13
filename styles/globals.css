@@ -32,5 +32,12 @@ table.basic thead tr td{
 }
 
 table.basic a{
-  @apply bg-powder-blue text-sm py-1 px-2 rounded-md inline-flex gap-1;
+  @apply bg-powder-blue text-sm py-1 px-2 rounded-md inline-flex gap-1 mr-1;
+}
+
+.btn-red{
+  @apply bg-red-700 text-white py-1 px-4 rounded-lg;
+}
+.btn-default{
+  @apply bg-gray-500 text-white py-1 px-4 rounded-lg;
 }
